@@ -1,5 +1,9 @@
+body{
+    background-color: #457f8c;
+    
+}
 h1 {
-    color: rgb(65, 134, 174);
+    color: rgb(156, 65, 174);
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
