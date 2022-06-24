@@ -9,6 +9,10 @@ app.get ('/', (req, res) => {
     res.send('Hello Heroku HOME!');
 });
 
+app.get ('/hi', (req, res) => {
+    res.send('hi ho let´s go! 🚀');
+});
+
 const PORT = process.env.PORT || 8080;
 
 app.listen(PORT, () => {
